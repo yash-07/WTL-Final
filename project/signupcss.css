@@ -1,0 +1,39 @@
+<style type="text/css">
+                
+                    .n{
+                        color:red;
+                        }
+                    .space{
+                                margin:7px;
+                            }
+                    input{
+                            border-radius:3px;
+                            background-color:yellow; 
+                            }
+                    #sign-up{
+                            color:floralwhite;
+                          float: right;
+                           position: relative;
+                           left: 0px;
+                           top: 50px;
+                           
+                        
+                            }
+                    .t{
+                        display: none;
+                        
+                    }
+
+                           .toggle {
+                        font-size: 120%;
+                        color: red;
+                        display: show;
+                    }
+#signup{
+    margin-top: 10px;
+}
+#done{
+    width: 500px;
+}
+             
+            </style>

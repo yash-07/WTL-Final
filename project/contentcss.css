@@ -1,0 +1,41 @@
+<style type="text/css">
+.tiles{
+        float:left;
+        margin-top: 10px;
+        margin-right: 25px;
+        background-color:white;
+        border: 1px solid green;
+        padding: 0px;
+        height: 215px;
+        width:21%;
+    }
+   
+    
+    .content{
+       background-image: url(11.jpg);
+        
+    }
+    .page-header{
+        border-bottom:1px solid black;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    .page{
+        background-color: beige;
+        border: 1px solid yellow;
+    }
+    .image{
+        opacity: 1;
+        height:60%;
+        width: 100%;
+    }
+    .image:hover{
+        opacity: 0.8;
+    }
+    #menu{
+        position: relative;
+        top: 310px;
+        left:50px;
+    }
+    </style>

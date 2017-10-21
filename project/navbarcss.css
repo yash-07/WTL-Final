@@ -1,0 +1,32 @@
+<style type="text/css">
+.navbar{
+           position: fixed;
+    top: -40px;
+            }
+        #dd{
+            margin: 5px;
+            
+        }
+        #login-div{
+            
+            width: 250px;
+            background-color: gold;
+        }
+           #done{
+               font-size: 20px;
+              color:white;
+              height: 35px;
+              width:200px;
+              border-radius: 5px;
+              border: 1px solid green;
+              margin-top: 3px;
+              margin-right: 40px;
+              background: green;
+          }
+          #login-signup{
+              margin-top: 5px;
+          }
+        .s{
+          font-size: 17px;  
+        }
+</style>
