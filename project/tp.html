@@ -241,19 +241,19 @@ footer a:hover {
    <div class="container1" >
     <p class="frame-heading text-center">OUTDOOR GAMES</p>
  
-                <iframe class="mySlides" id="frame1"  src="frame11.html">
+                <iframe class="mySlides1" id="frame1"  src="frame11.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
        
-                <iframe class="mySlides" id="frame1" src="frame12.html">
+                <iframe class="mySlides1" id="frame1" src="frame12.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
-                <iframe class="mySlides" id="frame1" src="frame13.html">
+                <iframe class="mySlides1" id="frame1" src="frame13.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
     
         <div class="but1">
-    <button class="b1l" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="b1l" onclick="plusDivs1(-1)">&#10094;</button>
       <button class="b1r" onclick="plusDivs(1)">&#10095;</button>
 </div>
       
@@ -261,14 +261,14 @@ footer a:hover {
     <div class="container1 " >
     <p class="frame-heading text-center">INDOOR GAMES</p>
  
-                <iframe class="mySlides2" id="frame1"  src="frame21.html">
+                <iframe class="mySlides2" id="frame1"  src="frame31.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
        
-                <iframe class="mySlides2" id="frame1" src="frame22.html">
+                <iframe class="mySlides2" id="frame1" src="frame32.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
-                <iframe class="mySlides2" id="frame1" src="frame23.html">
+                <iframe class="mySlides2" id="frame1" src="frame33.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
     
@@ -282,14 +282,14 @@ footer a:hover {
     <div class="container1 " >
     <p class="frame-heading text-center">Pc GAMES</p>
  
-                <iframe class="mySlides3" id="frame1"  src="frame31.html">
+                <iframe class="mySlides3" id="frame1"  src="frame11.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
        
-                <iframe class="mySlides3" id="frame1" src="frame32.html">
+                <iframe class="mySlides3" id="frame1" src="frame12.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
-                <iframe class="mySlides3" id="frame1" src="frame33.html">
+                <iframe class="mySlides3" id="frame1" src="frame13.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
     
@@ -323,40 +323,41 @@ footer a:hover {
 })
     //
     
-    var slideIndex = 1;
-showDivs(slideIndex);
+        var slideIndex1 = 1;
+showDivs1(slideIndex1);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
+function plusDivs1(n) {
+  showDivs1(slideIndex1 += n);
 }
 
-function showDivs(n) {
+function showDivs1(n) {
   var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length}
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) {slideIndex1 = 1}    
+  if (n < 1) {slideIndex1 = x.length}
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
   }
-  x[slideIndex-1].style.display = "block";  
+  x[slideIndex1-1].style.display = "block";  
 }
     //second frame
+ 
     var slideIndex2 = 1;
 showDivs2(slideIndex2);
 
-function plusDivs2(n) {
-  showDivs2(slideIndex2 += n);
+function plusDivs2(n2) {
+  showDivs2(slideIndex2 += n2);
 }
 
-function showDivs2(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides2");
-  if (n > x.length) {slideIndex2 = 1}    
-  if (n < 1) {slideIndex2 = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+function showDivs2(n2) {
+  var i2;
+  var x2 = document.getElementsByClassName("mySlides2");
+  if (n2 > x2.length) {slideIndex2 = 1}    
+  if (n2 < 1) {slideIndex2 = x2.length}
+  for (i2 = 0; i2 < x2.length; i2++) {
+     x2[i2].style.display = "none";  
   }
-  x[slideIndex2-1].style.display = "block";  
+  x2[slideIndex2-1].style.display = "block";  
 }
     
     //Third frame
