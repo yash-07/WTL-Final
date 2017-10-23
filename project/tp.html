@@ -254,21 +254,21 @@ footer a:hover {
     
         <div class="but1">
     <button class="b1l" onclick="plusDivs1(-1)">&#10094;</button>
-      <button class="b1r" onclick="plusDivs(1)">&#10095;</button>
+      <button class="b1r" onclick="plusDivs1(1)">&#10095;</button>
 </div>
       
        </div>
     <div class="container1 " >
     <p class="frame-heading text-center">INDOOR GAMES</p>
  
-                <iframe class="mySlides2" id="frame1"  src="frame31.html">
+                <iframe class="mySlides2" id="frame1"  src="frame21.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
        
-                <iframe class="mySlides2" id="frame1" src="frame32.html">
+                <iframe class="mySlides2" id="frame1" src="frame22.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
-                <iframe class="mySlides2" id="frame1" src="frame33.html">
+                <iframe class="mySlides2" id="frame1" src="frame23.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
     
@@ -282,14 +282,14 @@ footer a:hover {
     <div class="container1 " >
     <p class="frame-heading text-center">Pc GAMES</p>
  
-                <iframe class="mySlides3" id="frame1"  src="frame11.html">
+                <iframe class="mySlides3" id="frame1"  src="frame31.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
        
-                <iframe class="mySlides3" id="frame1" src="frame12.html">
+                <iframe class="mySlides3" id="frame1" src="frame32.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
-                <iframe class="mySlides3" id="frame1" src="frame13.html">
+                <iframe class="mySlides3" id="frame1" src="frame33.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
     
@@ -326,19 +326,19 @@ footer a:hover {
         var slideIndex1 = 1;
 showDivs1(slideIndex1);
 
-function plusDivs1(n) {
-  showDivs1(slideIndex1 += n);
+function plusDivs1(n1) {
+  showDivs1(slideIndex1 += n1);
 }
 
-function showDivs1(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides1");
-  if (n > x.length) {slideIndex1 = 1}    
-  if (n < 1) {slideIndex1 = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
+function showDivs1(n1) {
+  var i1;
+  var x1 = document.getElementsByClassName("mySlides1");
+  if (n1 > x1.length) {slideIndex1 = 1}    
+  if (n1 < 1) {slideIndex1 = x1.length}
+  for (i1 = 0; i1 < x1.length; i1++) {
+     x1[i1].style.display = "none";  
   }
-  x[slideIndex1-1].style.display = "block";  
+  x1[slideIndex1-1].style.display = "block";  
 }
     //second frame
  
