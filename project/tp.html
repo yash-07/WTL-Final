@@ -43,21 +43,33 @@
     }
     .image{
         opacity: 1;
+       border-radius: 50%;
         
     }
     .image:hover{
         opacity: 0.8;
     }
+     .bg{
+        background-color: none;
+        border-radius: 50%;
+         border:5px solid black;
+    }
+    .about-text{
+        padding-top: 7px;
+        background-color: aliceblue;
+        font-size: 18px;
+    }
+    
     
     .container{
-        margin-top:500px; ;
-        height:320px;
+        margin-top:36%; 
+        height:50%;
         width: 100%;
      
     }
     .container1{
-        margin-top:30px;;
-        height:320px;
+        margin-top:5%;
+        height:350px;
         width: 100%;
          
     }
@@ -72,14 +84,16 @@
                 width:25%;
                 float: left;
                 margin-right: 20px;
-                margin-top: 10px;
-                border-radius: 10%;
+                margin-top: 100px;
+                
             }
  
     #about-display{
                     display: none;
                     }
+   
     .jumbotron{
+        
                 padding:0px;
                 margin: 0px;
                 }
@@ -91,7 +105,7 @@
    
      #frame1{
         width: 100%;
-        height: 270px;
+        height: 100%;
         border:none; 
          
         }
@@ -104,6 +118,7 @@
         border-radius:25%;
         border: none;
         float: left;
+        margin-left:  10px;
     }
     
     .b2r,.b1r,.b3r{
@@ -114,15 +129,16 @@
         border-radius: 25%;
         border: none;
         float: right;
+        margin-right: 10px;
     }
     .but1{
         position: relative;
-        top: -150px;
+        top: -225px;
     }
     .frame-heading{
-        font-family: cursive;
+        font-family: Verdana, Geneva, sans-serif;
         font-size: 30px;
-        
+        color: aliceblue;
     }
     .dropbtn {
         margin: 0px;
@@ -136,12 +152,26 @@
         right: 10px;
         
     }
+    footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 25px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
     
 </style>
     
 </head>
     
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="10">
     
 <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -187,43 +217,38 @@
 
    <div id="about-display"> 
     <div class="atiles" >
-            <div class="w3-card-4 bg" >
-                <img src="vipul.jpg" alt="Norway">
-                <div class="w3-container w3-center" style="margin-top:10px;">
-                  <p>Vipul Singh Raghuvanshi</p>
-                    
+            <div class="w3-card-4 bg " >
+                <img class="image" src="vipul.jpg" alt="Norway">
                 </div>
+                <div class="w3-container w3-center about-text" style="margin-top:10px;">
+                  <p>Vipul Singh Raghuvanshi</p>
+                   <p> Back End Developer</p> 
+                
             </div>
         </div> 
-        <div class="atiles w3-hover-shadow">
+        <div class="atiles ">
             <div class="w3-card-4 bg" >
                 <img class="image" src="yash.jpg" alt="Norway" >
-                <div class="w3-container w3-center" style="margin-top:10px;">
-                    <p>Yash Chourasia </p>
                 </div>
-            </div>
-        </div>
-         <div class="atiles">
-            <div class="w3-card-4 bg" >
-                <img  src="pablya.jpg" alt="Norway" >
-                <div class="w3-container w3-center" style="margin-top:10px;">
-                  <p> Pablya Bhai</p>
+                <div class="w3-container w3-center about-text" style="margin-top:10px;">
+                    <p>Yash Chourasia</p> 
+                     <p>Front End Developer</p>
                 </div>
-            </div>
         </div>
+         
     </div>  
-    
-   <div class="container" >
-    <p class="frame-heading">  OutDoor Games</p>
+    <div class="row container">
+   <div class="container1" >
+    <p class="frame-heading text-center">OUTDOOR GAMES</p>
  
-                <iframe class="mySlides" id="frame1"  src="frametp.html">
+                <iframe class="mySlides" id="frame1"  src="frame11.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
        
-                <iframe class="mySlides" id="frame1" src="frametp1.html">
+                <iframe class="mySlides" id="frame1" src="frame12.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
-                <iframe class="mySlides" id="frame1" src="frametp2.html">
+                <iframe class="mySlides" id="frame1" src="frame13.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
     
@@ -233,17 +258,17 @@
 </div>
       
        </div>
-    <div class="container1" >
-    <p class="frame-heading">InDoor Games</p>
+    <div class="container1 " >
+    <p class="frame-heading text-center">INDOOR GAMES</p>
  
-                <iframe class="mySlides2" id="frame1"  src="frametp.html">
+                <iframe class="mySlides2" id="frame1"  src="frame21.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
        
-                <iframe class="mySlides2" id="frame1" src="frametp1.html">
+                <iframe class="mySlides2" id="frame1" src="frame22.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
-                <iframe class="mySlides2" id="frame1" src="frametp2.html">
+                <iframe class="mySlides2" id="frame1" src="frame23.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
     
@@ -254,17 +279,17 @@
       
        </div>
     
-    <div class="container1" >
-    <p class="frame-heading">Pc Games</p>
+    <div class="container1 " >
+    <p class="frame-heading text-center">Pc GAMES</p>
  
-                <iframe class="mySlides3" id="frame1"  src="frametp.html">
+                <iframe class="mySlides3" id="frame1"  src="frame31.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
        
-                <iframe class="mySlides3" id="frame1" src="frametp1.html">
+                <iframe class="mySlides3" id="frame1" src="frame32.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
-                <iframe class="mySlides3" id="frame1" src="frametp2.html">
+                <iframe class="mySlides3" id="frame1" src="frame33.html">
               <p>Your browser does not support iframes.</p>
             </iframe>
     
@@ -274,8 +299,14 @@
 </div>
       
        </div>
+        </div>
     
-    
+    <footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p><a href="contactus.html">CONTACT US</a></p> 
+</footer>
     
 
 
@@ -286,6 +317,10 @@
         $("#about-display").slideToggle("slow");
     });
 });
+    $(document).ready(function(){
+    // Initialize Tooltip
+    $('[data-toggle="tooltip"]').tooltip(); 
+})
     //
     
     var slideIndex = 1;
